@@ -1,6 +1,6 @@
 {
   "name": "foundation-utxo-lib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
   "keywords": [
