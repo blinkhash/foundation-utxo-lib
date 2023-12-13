@@ -1,6 +1,6 @@
 {
   "name": "foundation-utxo-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
   "keywords": [
@@ -20,15 +20,6 @@
   "license": "MIT",
   "author": {
     "name": "Nick Sarris"
-  },
-  "scripts": {
-    "coverage-report": "nyc report --reporter=lcov",
-    "coverage-html": "nyc report --reporter=html",
-    "coverage": "FOUNDATION_UTXO_LIB_TEST_EXPECTED_COUNT=3439 nyc --check-coverage --branches 90 --functions 90 mocha --recursive",
-    "integration": "mocha test/integration/",
-    "standard": "standard",
-    "test": "npm run standard && npm run coverage",
-    "unit": "mocha"
   },
   "contributors": [],
   "repository": {
